@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TITLE</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #ffffff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="content/logo.png" style="width: 60px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-5">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                სკოლის შესახებ
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="about.html">ვინ ვართ ჩვენ</a></li>
+                <li><a class="dropdown-item" href="#">რას შეისწავლით ჩვენთან ერთად</a></li>
+                <li><a class="dropdown-item" href="#">პარტნიორი ასოციაციები</a></li>
+                <li><a class="dropdown-item" href="#">ლოკაციის შესახებ</a></li>
+              </ul>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#lecturers">ლექტორები</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#courses">კურსების ჩამონათვალი</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#registerStudy">დაჯავშნე აქტივობა</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#gallery">გალერეა</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#contact">კონტაქტი</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" data-bs-interval="6000" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./content/gal_2.png">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>ტოტალ შარმი, პლასტიკური ქირურგიის სკოლა</h1>
+              <p> კლინიკა ტოტალ შარმა, როგორც ერთერთმა პირველმა კლინიკამ საქართელოში ესთეტიკური მიმართულებით წლების
+                განმავლობაში თავისი საქმიანობით და აქ მომუშავე მსოფლიო დონის ქირურგებით მოიპოვა სანდო და ხარისხზე
+                ორიენტირებული კლინიკის რეპუტაცია. </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">სკოლის შესახებ</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./content/gal_1.png">
+
+        </div>
+        <div class="carousel-item">
+          <img src="./content/gal_3.png">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./content/gal_4.png">
+
+        </div>
+        <div class="carousel-item">
+          <img src="./content/gal_5.png">
+
+
+        </div>
+
+        <div class="carousel-item">
+          <img src="./content/gal_6.png">
+
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+
+      <hr id="lecturers">
+      <h1  class="display-6 shadow p-3 mb-5 bg-white rounded  text-center" style="padding: 10px;">
+        ლექტორები</h1>
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">მარლენ სულამანიძე</h2>
+          <h5 class="text-muted">სკოლის დამაარსებელი</h5>
+          <p class="lead">Specialist on plastic, reconstructive and aesthetic surgery. Marlen was born in
+            Georgia in 1947. In 1972 he graduated from the Medical University in Irkutsk. From 1974 to 1984
+            his specialization was maxillofacial surgery and later he started specializing in plastic and
+            aesthetic surgery first in Georgia and from 1993 in Moscow. Since that time he has made over 20
+            thousand surgical operations, including over 5 thousand on nose shape deformity and 7 thousand
+            on Aptos methods.
+            <br>
+            Dr. Marlen Sulamanidze is a member of Society of plastic, reconstructive and aesthetic surgeons
+            of Russia, Georgia (GeoPRAS), ASPS (American Society of Plastic Surgeons), IPRAS, an honorary
+            member of National Society of aesthetic surgeons of France, an honorary president of Japanese
+            society of liposuction, a member of American society of dermatosurgeons. He has published over
+            70 scientific works, 18 of them in the leading international journals.
+            <br>
+            Dr. Sulamanidze has 16 patents and priorities of invention on plastic surgery, including 4
+            international, such as Aptos Threads, Wire Scalpel, a new implant for aesthetic operations,
+            remedial bra, mammoplasty method, dermotension method. Also he has worked out a great number of
+            original operations on his specialty.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="content/Dr. Marlen Sulamanidze.png"
+            class=" featurette-img bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded " />
+        </div>
+      </div>
+
+
+
+      <hr class="featurette-divider">
+
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">კონსტანტინე სულამანიძე</h2>
+          <h5 class="text-muted">The head of Plastic Surgery Department </h5>
+          <p class="lead">From 2009 to 2011 years studied in the academic clinical internship in the
+              Department of Plastic, Reconstructive Microsurgery of Russian Scientific Center of Surgery. From
+              2011 to 2012 years internship in specialty “Dermatovenereology” at the Russian University of
+              Friendship of Peoples (RUDN). Training and certification in the specialty “Cosmetology” in 2014
+              at the Russian University of Friendship of Peoples (RUDN).
+              <br>
+              Is an active member of:
+              <br>
+              – International Society of Plastic and Aesthetic Surgery (ISAPS)
+              <br>
+              – International Society of Plastic Aesthetic and Reconstructive Surgeons (IPRAS)
+              <br>
+              – Society of Plastic Aesthetic and Reconstructive Surgeons of Georgia (GeoPRAS)
+              <br>
+              – Russian Society of Plastic Reconstructive and Aesthetic Surgeons (SPRAS)
+              <br>
+              <br>
+              Performed more than 8 thousand operations, and more than 400 training courses on methods of
+              Aptos in more than 50 countries.Has published over 50 scientific papers, including the leading
+              international journals. Anti – Aging Beauty Trophy 2015 – Winner of the Best Clinical Case.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="content/Dr. Constantine Sulamanidze.png"
+            class=" featurette-img bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded " />
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- giorgi sulamanidze  -->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">გიორგი სულამანიძე</h2>
+          <h5 class="text-muted">M.D. PhD Plastic Surgeon, Dermatologist.</h5>
+          <p class="lead">A specialist in aesthetic surgery and aesthetic dermatology was born in 1979 in
+            Georgia. In 2002 graduated from the Medical State University of Russia (Moscow, Russia). From
+            2002 till 2007 graduated in Master's Degree Program and PhD Degree Program in Plastic Surgery in
+            the Russian Scientific Surgery Center’s (RAMS, Moscow, Russia) in Department of Plastic,
+            Reconstructive Microsurgery, and get PhD degree on the theme New methods of liposuction. In 2015
+            graduated in Master’s Degree Program in Dermatology in RUDN University.
+            Member of International Society of Aesthetic Plastic Surgery (ISAPS) since 2013. From 2003
+            member of American Society of Dermatologic Surgery (ASDS). From 2011 member of International
+            Confederation for Plastic Reconstructive and Aesthetic Surgery (IPRAS). From March 2003 is
+            honorary member of a French Society of Aesthetic Surgery. From September 2001 is honorary member
+            of Japanese Liposuction Society. A member of Society of Plastic, Reconstructive and Aesthetic
+            Surgeons in Russia and Georgia (SPRAS, GeoPRAS). From 2011 member of Aesthetic Medicine Society
+            of Russia.
+            <br>
+            <br>
+            <strong>In 2008 awarded Gold Scalpel in nomination Plastic Surgeon of The Year of
+              Russia.</strong>
+            <br>
+            <br>
+            <strong>Published more than 65 scientific articles in leading international issues.</strong>
+            <br>
+            <br>
+            Obtained 18 patents and priorities of invention in plastic surgery, 8 of which are
+            international. Among them are patents for: Aptos threads, Wire Scalpel, a new implant for
+            aesthetic operations, therapeutic brassiere, and mammaplasty and dermothensy methods. Devised a
+            variety of new original operations in his profession, including methods of contour compression
+            in rhinoplasty, horizontal mammaplasty methods, methods of “subcutaneous brassiere”, methods of
+            accelerated expanding, wire and liquid-gelular dermothensy, methods of minimally invasive
+            surgery to eliminate discernible manifestation of aging process (wrinkles, ptosis of soft
+            tissues), and other aesthetic deformations.
+
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="content/Dr. George Sulamanidze.png"
+            class=" featurette-img bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded " />
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+      <!-- albina qajaia -->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">ალბინა ქაჯაია</h2>
+          <h5 class="text-muted">
+            The Head of Dermato-Cosmetology Department
+            <br>
+            MD. Dermatologist.
+
+
+          </h5>
+          <p class="lead">Chief of the Dermatology Department of Clinic of Plastic Surgery and Dermatology
+            "Total Charm" Tbilisi, Georgia.<br><br>
+            Scientific Director and founder of the Congress "International Caucasian Congress on Plastic
+            Surgery and Dermato-Cosmetology – “Kolkhida" <br><br>
+            Member of : <br><br>
+            RSM (Royal Society of Medicine UK); WOSIAM association (World Society Interdisciplinary
+            Anti-Aging Medicine); AAAM (American Academy of Aesthetic Medicine), Honor member of Italian
+            Society of Beauty; GSAM (Georgian Society of Aesthetic Medicine); The winner of the ''Art of
+            Beauty'' awards for aesthetic medicine (Baku ,Azerbaijan 2015); The winner of The Anti- Aging&
+            Beauty Trophy, “Best clinical case. Non-surgical rhinoplasty” (Monaco 2017); “Leader of the year
+            2017” (Tbilisi, Georgia).
+            <br><br>
+            - KOL of Aptos Thread Lifting Methods.
+            <br>
+            - Certified trainer of Ipsen (Georgia)
+            <br>
+            - Allergan National Trainer in Georgia
+            <br>
+            - Member of AMI Advisory Board Georgia
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="content/Dr. Albina Kajaia.png"
+            class=" featurette-img bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded " />
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- murat cincadze -->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">მურატ ცინცაძე</h2>
+          <h5 class="text-muted">კოორდინატორი სამეცნიერო ნაწილში</h5>
+          <p class="lead">Plastic Surgeon, certified trainer on Aptos methods. Graduated from Shota Rustaveli
+            State University in Batumi. Attended Technical University named after Alexander the Great,
+            faculty of physical therapy and aesthetic medicine, Thessaloniki, Greece.Passed qualification in
+            General Surgery at the University Clinic of Ludwig Maximilian in Munich.Graduated from the
+            residency in general surgery at Shupyk Medical Academy of Postgraduate Education in Kiev.Passed
+            specialization in plastic surgery at Shupyk Medical Academy of Postgraduate Education in Kiev.
+            Courses on injectional methods with international trainers. Head of Caucasian youth league
+            association of doctors.Member of the Georgian Association of Allergology and Clinical
+            Immunology.Participated in various national and international congresses (Croatia, Greece,
+            Turkey, Egypt, France, Armenia, Azerbaijan, Germany, Austria, and others.).
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="content/Murat Tsintsadze.png"
+            class=" featurette-img bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded " />
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- nodar ioseliani  -->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">ნოდარ იოსელიანი</h2>
+          <h5 class="text-muted">Science degree..</h5>
+          <p class="lead">ბიოგრაფია...
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="content/Nodar-Ioseliani.png"
+            class=" featurette-img bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded " />
+        </div>
+      </div>
+
+      <!-- <hr class="featurette-divider"> -->
+
+      <!-- <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">კოორდინატორი სამეცნიერო ნაწილში</h2>
+          <h3 class=" text-muted">მურატ ცინცაძე</h3>
+        </div>
+
+      </div> -->
+
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- List of courses -->
+      <section>
+        <h1 id="courses" class="display-6  p-3 mb-5 bg-white rounded  text-center" style="padding: 10px;">
+          კურსების
+          ჩამონათვალი</h1>
+        <p class="text-center row">
+          <a class="btn shadow btn-light fs-4 fw-light rounded col-sm" data-bs-toggle="collapse"
+            href="#plasticSurgeryList" role="button" aria-expanded="false" aria-controls="plasticSurgeryList">
+            პლასტიკური ქირურგიის დეპარტამენტი
+          </a>
+          <a class="btn shadow btn-light fs-4 fw-light rounded col-sm" data-bs-toggle="collapse"
+            href="#dermatoCosmetologyList" role="button" aria-expanded="false" aria-controls="dermatoCosmetologyList">
+            დერმატო-კოსმეტოლოგიის დეპარტამენტი
+          </a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="plasticSurgeryList">
+              <div class="card card-body">
+                <ul class="list-group fs-5">
+                  <li class="list-group-item">
+                    <strong>ნაწიბურის ქირურგიული კორექცია</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>ზედა და ქვედა ბლეფაროპლასტიკა</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>ლიპოსაქცია</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>ლიპოფილინგი</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>კანტოპექსია</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>წარბების ქირურგიული ლიფტინგი/ </strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>რინოპლასტიკა</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>აუგმენტაციური მამოპლასტიკა</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+
+                  <li class="list-group-item">
+                    <strong>მასტოპექსია</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>გინეკომასტიის ქირურგიული მკურნალობა</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>აბდომინოპლასტიკა</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>ბრაქიოპლასტიკა</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>ინდივიდუალური კურსი</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>თქვენს მიერ შერჩეული კომბინაცია</strong>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>გრძელვადიანი ინდივიდუალური სწავლება</strong>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="dermatoCosmetologyList">
+              <div class="card card-body">
+                <ul class="list-group fs-5">
+                  <li class="list-group-item">
+                    <strong>ინდივიდუალური კურსი</strong>
+                    <br>
+                    <span>*დამსწრე/ასისტენცია</span>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>თქვენს მიერ შერჩეული კომბინაცია</strong>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>გრძელვადიანი ინდივიდუალური სწავლება</strong>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr>
+
+        <h3 id="courses" class="display-6  p-3 mb-5 bg-white rounded  text-center" style="padding: 10px;">
+          კვალიფიკაციის ასამაღლებელი კურსები</h3>
+        <p>...</p>
+      </section>
+      <section>
+        <hr>
+        <h3 id="courses" class="display-6  p-3 mb-5 bg-white  fw-light text-center" style="padding: 10px;">
+          საზაფხულო სკოლები</h3>
+        <p>...</p>
+      </section>
+      <section>
+        <hr>
+        <h4 id="courses" class="display-6  p-3 mb-5 bg-white fw-light text-center" style="padding: 10px;">
+          კონფერენციები</h4>
+        <p>...</p>
+      </section>
+
+      <section>
+        <hr>
+        <h4 id="courses" class="display-6  p-3 mb-5 bg-white fw-light text-center" style="padding: 10px;">
+          აქტივობის კალენდარი</h4>
+        <p>...</p>
+      </section>
+      <section>
+        <hr>
+        <h4 id="registerStudy" class="display-6  p-3 mb-5 bg-white fw-light text-center" style="padding: 10px;">
+          დაჯავშნე აქტივობა</h4>
+        <div class="row g-3">
+          <div class="col-md-4 mx-auto">
+            <form>
+              <div class="row g-3">
+                <div class="col-md-12">
+                  <label for="inputEmail">ელ-ფოსტა</label>
+                  <input type="text" class="form-control" id="inputEmail" placeholder="demo@totalcharm.ge">
+                </div>
+                <div class="col-md-12">
+                  <label for="inputEmail">სახელი, გვარი</label>
+                  <input type="text" class="form-control" id="inputEmail" placeholder="ირაკლი დავითაშვილი">
+                </div>
+                <div class="col-md-5">
+                  <label for="country" class="form-label">საზაფხულო სკოლა</label>
+                  <select class="form-select" id="country" required="">
+                    <option value="">აირჩიე...</option>
+                    <option>არჩევანი 1</option>
+                    <option>არჩევანი 2</option>
+                  </select>
+                </div>
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-light mb-3">დაჯავშნა</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr>
+        <h4 id="gallery" class="display-6  p-3 mb-5 bg-white fw-light text-center" style="padding: 10px;">
+          გალერეა</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="content/gal_1.png" class="bd-placeholder-img card-img-top" width="100%" height="auto" role="img"
+                aria-label="Placeholder: Thumbnail" focusable="false">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="content/gal_2.png" class="bd-placeholder-img card-img-top" width="100%" height="auto" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="content/gal_3.png" class="bd-placeholder-img card-img-top" width="100%" height="auto" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="content/gal_4.png" class="bd-placeholder-img card-img-top" width="100%" height="auto" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="content/gal_5.png" class="bd-placeholder-img card-img-top" width="100%" height="auto" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="content/gal_6.png" class="bd-placeholder-img card-img-top" width="100%" height="auto" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class=" text-center">
+        <hr>
+        <p id="contact" class="h4 ">
+          კონტაქტი</p>
+        <p class="fs-5">
+          E-mail:<br> <a href="mailto: tcschool@tcc.ge">tcschool@tcc.ge</a> <br>
+          Phone: <br> <a href="tel: 0322 18 18 14">0322 18 18 14</a>
+
+        </p>
+      </section>
+      <hr>
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
+
+
+  <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
